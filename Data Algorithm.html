@@ -1,9 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title></title>
+  <title> Justice Rainbow </title>
 </head>
 <body>
+<SCRIPT>
 
+var heroes = ['barry', 'clark', 'diana', 'john', 'bruce'];
+
+var cars = [
+  {heroes: 'barry', power: 'speed'},
+  {heroes: 'clark', power: 'strength'},
+  {heroes: 'diana', power: 'god'},
+  {heroes: 'john', power: 'ring'},
+  {heroes: 'bruce', power: 'money'}
+
+];
+
+console.dir(cars.sort(function (a,b) {return a.power > b.power;}).reverse());
+
+</SCRIPT>
 </body>
 </html>
