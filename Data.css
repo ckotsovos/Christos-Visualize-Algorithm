@@ -1,7 +1,13 @@
 body {
   cursor: pointer;
-  background-image: url("https://moneystrategiesforall.files.wordpress.com/2013/03/money22.jpg");
+  background-image: url("http://www.hidefia.com/wp-content/uploads/2014/12/Marvin-Paranoid-Android-Minimal-HD-Wallpaper.jpg");
+  background-position: center;
   }
+h1 {
+  font-family: 'Syncopate', sans-serif;
+  font-size: 200%;
+  text-align: center;
+}
 #startButton {
   padding: 0px; border: #999;
 }
