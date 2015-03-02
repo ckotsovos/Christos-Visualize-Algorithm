@@ -1,43 +1,15 @@
 <!DOCTYPE html>
 <head>
-  <title>Bar Chart</title>
+  <title>M$NEY</title>
   <link rel="stylesheet" type="text/css" href="Data.css">
 </head>
 <body>
   <aside>
-   <P>drawBarChart</P>
+  <button id="startButton">
+  <P>START TO GENERATE</P>
+  </button>
   </aside>
-  <script>
-  var a = [34, 203, 3, 746, 200, 984, 198, 764, 9];
-
-  function bubbleSort(a)
-{
-    var swapped;
-    do {
-        swapped = false;
-        for (var i=0; i < a.length-1; i++) {
-            if (a[i] > a[i+1]) {
-                var temp = a[i];
-                a[i] = a[i+1];
-                a[i+1] = temp;
-                swapped = true;
-                drawBarChart(a) // Now I need to figure out how to connect the Bar Chart
-             }
-        }
-    } while (swapped);
-}
-
-bubbleSort(a);
-console.log(a);
-  </script>
+<canvas id="drawBarChart" width="800" height="400" ></canvas>
 <script src="data.js"></script>
-</body>
-</html>
-<html>
-<head>
-  <title></title>
-</head>
-<body>
-
 </body>
 </html>

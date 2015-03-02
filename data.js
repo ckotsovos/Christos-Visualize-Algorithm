@@ -1,3 +1,4 @@
+var a = [34, 203, 3, 746, 200, 984, 198, 764, 9]
 function bubbleSort(a)
 {
     var swapped;
@@ -15,5 +16,4 @@ function bubbleSort(a)
     } while (swapped);
 }
 
-bubbleSort(a);
 console.log(a);
