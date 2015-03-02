@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<head>
-  <title>Bar Chart</title>
-</head>
-<body>
-  <script>
-  var a = [34, 203, 3, 746, 200, 984, 198, 764, 9];
-
-  function bubbleSort(a)
+function bubbleSort(a)
 {
     var swapped;
     do {
@@ -17,7 +9,7 @@
                 a[i] = a[i+1];
                 a[i+1] = temp;
                 swapped = true;
-                drawBarChart(a) // Now I need to figure out how to connect the Bar Chart
+                drawBarChart(a) // Right here
              }
         }
     } while (swapped);
@@ -25,15 +17,3 @@
 
 bubbleSort(a);
 console.log(a);
-  </script>
-
-</body>
-</html>
-<html>
-<head>
-  <title></title>
-</head>
-<body>
-
-</body>
-</html>

@@ -1,0 +1,13 @@
+body {
+  cursor: pointer;
+  }
+div {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  float: left;
+  background: red;
+}
+span {
+  color: red;
+}
